@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi primera página</title>
+
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          background-color: #fdb9ec;
+        }
+    
+        h1 {
+          color: #0855a3;
+        }
+        
+ h2 {
+      color: #9116f7;
+    }
+    
+        p {
+          font-size: 16px;
+        }
+      </style>
+
+  </head>
+  <body>
+    <h2>Diregirme a:</h2>
+    <a href="index.html">🏡</a>
+    <a href="Objetos.html">➡️</a>
+    <hr/>
+   
+    <h1 id="miTitulo"> "Demo"</h1>
+    <hr/>
+
+    <h1 id="miTitulo"> Arisbeth Camacho Montero</h1>
+    <p>
+      Carrera: Ing. Sistemas Computacionales
+    </p>
+    <script>
+      document
+        .getElementById("miTitulo")
+        .addEventListener("click", function () {
+          this.style.color = "white";
+        });
+    </script>
+  </body>
+</html>
