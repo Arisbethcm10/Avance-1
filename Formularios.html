@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          background-color: #fdb9ec;
+        }
+    
+        h1 {
+          color: #0855a3;
+        }
+    
+        h2 {
+          color: #9116f7;
+        }
+    
+        p {
+          font-size: 16px;
+        }
+      </style>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    
+    
+    <h2>Diregirme a:</h2>
+    <a href="index.html">🏡</a>
+    <a href="CV.html">➡️</a>
+    <hr/>
+ <h1>Formularios</h1>
+<hr/>
+   
+    <h2>Formulario con POST</h2>
+    <form method="POST" action="formularios.html"> 
+        <input type="text" name="Nombre" placeholder="Nombre" required>
+        <br>
+        <input type="text" name="Apellido1" placeholder="Apellido Paterno" required>
+        <br>
+        <input type="text" name="Apellido2" placeholder="Apellido Materno" required>
+        <br>
+        <br>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Name">
+        <br>
+        <input type="password" name="clave" placeholder="Contra de bot"/>
+        <br>
+        <input type="file" name="archivo"/>
+        <br>
+        <input type="checkbox" name="acepto"/>
+        <div>
+            <label for="masculino">
+            <input type="radio" id="masculino" name="genero" value="M" checked/>
+            Masculino
+            </label>
+        </div>
+        <div>
+            <label for="femenino">
+                <input type="radio" id="femenino" name="genero" value="F">
+                Femenino
+            </label>
+        </div>
+        <div>
+            <label for="no especificado">
+                <input type="radio" id="no especificado" name="genero" value="NE">
+                No especificado
+            </label>
+        </div>
+        <input type="hidden" name="folio"/>
+        <input type="email" name="correo" placeholder="Correo de bots"/>
+        <br>
+        <input type="url" name="página" placeholder="Pagina de bots"/>
+        <br>
+        <input type="number" name="numero" placeholder="Numero de bots"/>
+        <br>
+        <input type="range" name="rango"/>
+        <br>
+        <input type="date" name="fecha"/>
+        <br>
+        <input type="month" name="mes"/>
+        <br>
+        <input type="week" name="semana"/>
+        <br>
+        <input type="time" name="hora"/>
+        <br>
+        <input type="datetime-local" name="fecha y hora"/>
+        <br>
+        <input type="color" name="color"/>
+        <br>
+        <input type="search" name="búsqueda" placeholder="Busqueda de bot"/>
+        <br>
+        <input type="tel" name="teléfono" placeholder="Telefono de bots"/>
+        <br>
+        <br>
+        <textarea name="comentario" rows="4" cols="50">
+            Escribe aquí tu comentario...
+        </textarea>
+        <br>
+        <select name="pais">
+            <option value="MX" selected>Mexico</option>
+            <option value="US">Estados Unidos</option>
+            <option value="CA">Canada</option>
+        </select>
+        <br>
+        <select name="colores" multiple size="2">
+            <option value="Rojo" selected>Rojo</option>
+            <option value="Verde">Verde</option>
+            <option value="Azul">Azul</option>
+        </select>
+        <br>
+        <div>
+            <label for="colores">Colores</label>
+            <select name="Colores" id="colores">
+                <optgroup label="Colores Primarios">
+                    <option value="Rojo">rojo</option>
+                    <option value="Verde">Verde</option>
+                    <option value="Azul">Azul</option>
+                </optgroup>
+                <optgroup label="Colores Secundarios">
+                    <option value="Amarillo">Amarillo</option>
+                    <option value="Naranja">Naranja</option>
+                    <option value="Violeta">Violeta</option>
+                </optgroup>
+            </select>
+        </div>
+        <br>
+        <button type="submit">Enviar a matar los bots</button>
+        <button type="reset">Limpiar los bots</button>
+        <button type="button">Cancelar por bot</button>
+        <br>
+        </fieldset>
+    </form>
+    <!-- Componentes del formulario -->
+    <h2>Formulario con GET</h2>
+    <form method="GET" action="procesa.php">
+        <input type="text" name="Nombre" placeholder="Nombre" required>
+        <br>
+        <input type="text" name="Apellido1" placeholder="Apellido Paterno" required>
+        <br>
+        <input type="text" name="Apellido2" placeholder="Apellido Materno" required>
+    </form>
+    <!-- Componentes del formulario -->
+</body>
+</html>
