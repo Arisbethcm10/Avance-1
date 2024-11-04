@@ -1,0 +1,33 @@
+*{
+color: #ff0022;
+}
+
+h1 {
+    color: #1000ff;
+}
+
+.verde{
+    background-color: #00ff22;
+    color: #000;
+}
+
+h6.verde{
+    background-color: #00ff00;
+}
+
+#sections{
+background-color: #000;
+color: hsl(24,24,96);
+}
+
+[type= "text"]{
+    border: 2px solid #8000ff;
+}
+input[type]{
+    background-color: yellow;
+}
+input[type="text"]:focus{
+    background-color: #ff80c8;
+}
+
+ 
