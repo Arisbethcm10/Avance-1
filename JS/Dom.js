@@ -47,3 +47,16 @@ lista.appendChild(item);
 }
 
 padre_parrafo.appendChild(lista);
+
+//let parrafo = document.querySelector("p");
+//document.body.removeChild(parrafo); // Se elimina por referencia
+
+//let ultimo_parrafo = document.querySelector("p:last-child");
+//ultimo_parrafo.remove();
+
+//let nodo = document.body;
+// while (nodo.firstChild) {
+// nodo.removeChild(nodo.firstChild);
+// }
+
+//document.body.innerHTML = "";
