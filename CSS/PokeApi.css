@@ -1,0 +1,35 @@
+h1{
+    font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+    font-size: 50px;
+
+    text-align: center;
+}
+h2{
+    font-family: "Arial", sans-serif;
+    font-size: 24 px;
+
+    color: #0074e8;
+    background-color: #dbdff7;
+}
+h3{
+    color: #0074e8;
+    background-color: #dbdff7;
+    border: 1px solid #ff00ff;
+    box-shadow: 2px 2px 5px #ffb5d7;
+    text-shadow: 1px 1px 2px #ff6eb6;
+
+h4{
+    color: rgb(143, 15, 143);
+    background-color: #e7f7ff;
+    border-color: rgb(15, 80, 250);
+    box-shadow: 2px 2px 5px rgba(204, 2, 284, 0.5);
+    text-shadow: 1px 1px 2px rgba(198, 255, 255, 0.5);
+
+}
+hr{
+    font-family: monospace;
+    background-color:rgb(163, 118, 247);
+    height: 5px;
+    border-width: 0px;
+
+}
