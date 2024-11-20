@@ -1,0 +1,36 @@
+h1 {
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+h2, h3, h4 {
+    font-family: "Arial", sans-serif;
+    color: #0074e8;
+    background-color: #f0f8ff;
+}
+.detalle-imagen img {
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+.detalle-informacion {
+    margin-top: 20px;
+    padding: 20px;
+    text-align: left;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  .detalle-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  img {
+    max-width: 300px;
+    border-radius: 10px;
+  }
+  
